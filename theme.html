@@ -14,6 +14,7 @@
     {{ header_meta }}
 
     <link href="{{ assets('css/style.css') }}" rel="stylesheet" />
+    <link href='http://fonts.googleapis.com/css?family=Handlee' rel='stylesheet' type='text/css'>
 
     <!--[if IE 7]>
       <link href="http://postach.io/static/themes/_assets/fontawesome/css/font-awesome-ie7.min.css" rel="stylesheet">
@@ -71,7 +72,7 @@
       <div class="post-wrapper">
 
         {% if is_tag %}
-        <h4 class="tag-header">Showing all posts tagged as {{ tag }}:</h4>
+        <h4 class="tag-header">All your posts tagged as {{ tag }}:</h4>
         {% endif %}
 
         {% for post in posts %}
