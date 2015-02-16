@@ -23,7 +23,10 @@ body {
   font-family: 'Handlee', helvetica, sans-serif;
   height: 100%;
   width: 100%;
-  background-image: url=("http://i.imgur.com/d0CZUJX.jpg");
+  background:url(banner.jpg) no-repeat right top fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
   font-size: 100%;
   /* 16px */
   line-height: 1.5;
